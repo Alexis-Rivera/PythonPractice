@@ -1,1 +1,10 @@
 #practice file for collection and displaying address information
+firstName = input("First Name: ")
+lastName = input("Last Name: ")
+addressLine1 = input("Please enter your street address: ")
+addressCity = input("Please enter your city: ")
+addressState = input("Please enter your state abbr: ")
+addressZip = input("Please enter your zip code: ")
+print (firstName + " " + lastName)
+print (addressLine1)
+print (addressCity + ", " + addressState + " " + addressZip)
